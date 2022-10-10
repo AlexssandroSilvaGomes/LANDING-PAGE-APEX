@@ -44,6 +44,7 @@ main {
     position: relative;
     padding-left: 100px;
     padding-right: 100px;
+   
 }
 
 .nav {
@@ -108,8 +109,10 @@ main {
 }
 
 .botoes {
+    display: flex;
     font-size: 1.5rem;
     font-weight: 700;
+    gap: 24px;
 }
 
 .image {
